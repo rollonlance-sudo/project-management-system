@@ -137,7 +137,3 @@ The app opens at `http://localhost:5173`.
 
 - **Frontend**: Build with `npm run build` → deploy `dist/` to Firebase Hosting
 - **Backend**: Deploy to Railway or Render; set environment variables in the platform dashboard
-
-## License
-
-MIT
