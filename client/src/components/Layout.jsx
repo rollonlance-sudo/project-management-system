@@ -2,13 +2,13 @@ import { Outlet, Link, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
 import {
-  HiOutlineViewBoards,
   HiOutlineSun,
   HiOutlineMoon,
   HiOutlineLogout,
   HiOutlineMenu,
   HiOutlineX,
 } from 'react-icons/hi';
+import { HiOutlineViewBoards } from 'react-icons/hi';
 import { useState } from 'react';
 
 export default function Layout() {
@@ -36,7 +36,7 @@ export default function Layout() {
         <div className="flex flex-col h-full">
           {/* Logo */}
           <div className="flex items-center gap-2 px-6 py-5 border-b border-gray-200 dark:border-gray-700">
-            <HiOutlineViewBoards className="text-blue-600 text-2xl" />
+            <img src="/logo.svg" alt="ProjectFlow" className="w-8 h-8" />
             <span className="text-xl font-bold text-gray-900 dark:text-white">
               ProjectFlow
             </span>
@@ -113,6 +113,7 @@ export default function Layout() {
           >
             <HiOutlineMenu className="text-xl" />
           </button>
+          <img src="/logo.svg" alt="ProjectFlow" className="w-7 h-7" />
           <span className="text-lg font-bold">ProjectFlow</span>
         </header>
 

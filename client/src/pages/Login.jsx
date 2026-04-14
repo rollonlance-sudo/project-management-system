@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { HiOutlineViewBoards } from 'react-icons/hi';
 import { FcGoogle } from 'react-icons/fc';
 import toast from 'react-hot-toast';
 
@@ -37,7 +36,7 @@ export default function Login() {
     <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 px-4">
       <div className="w-full max-w-md">
         <div className="flex items-center justify-center gap-2 mb-8">
-          <HiOutlineViewBoards className="text-blue-600 text-3xl" />
+          <img src="/logo.svg" alt="ProjectFlow" className="w-10 h-10" />
           <span className="text-2xl font-bold text-gray-900 dark:text-white">
             ProjectFlow
           </span>
